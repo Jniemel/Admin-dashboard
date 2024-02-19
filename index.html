@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid-container" id="interface">
+        <div class="flex-container" id="sidebar">
+            <div id="dash-text">
+                <p>Dashboard</p>                
+            </div>
+            <div class="flex-container" id="side-buttons">
+                <ul id="nav">
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li>Messages</li>
+                    <li>History</li>
+                    <li>Tasks</li>
+                    <li>Communities</li>
+                </ul>
+                <ul id="options">
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>            
+        </div>
+        <div class="grid-container" id="main">
+            <div class="grid-container" id="header">
+                <div id="search-bar">
+                    <input type="text" placeholder="Search...">
+                </div>                                
+                <div class="flex-container" id="user">                    
+                    <button id="notif-button"><svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="35" height="35"><path d="M20.97,6.88c-.3-1.67-1.75-2.88-3.45-2.88h-1.03c.31-.42,.5-.94,.5-1.5,0-1.38-1.12-2.5-2.5-2.5h-5c-1.38,0-2.5,1.12-2.5,2.5,0,.56,.19,1.08,.5,1.5h-1.03c-1.7,0-3.15,1.21-3.45,2.88L.69,20h7.31c0,2.21,1.79,4,4,4s4-1.79,4-4h7.31l-2.34-13.12ZM8,2.5c0-.83,.67-1.5,1.5-1.5h5c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5h-5c-.83,0-1.5-.67-1.5-1.5ZM1.88,19L4.02,7.06c.21-1.19,1.25-2.06,2.46-2.06h11.05c1.21,0,2.25,.87,2.46,2.06l2.13,11.94H1.88Zm10.12,4c-1.65,0-3-1.35-3-3h6c0,1.65-1.35,3-3,3Z"/></svg></button>                                       
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="30" height="30"><path d="m12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm-5,21.797v-.797c0-2.757,2.243-5,5-5s5,2.243,5,5v.797c-1.501.769-3.201,1.203-5,1.203s-3.499-.434-5-1.203Zm11-.582v-.215c0-3.309-2.691-6-6-6s-6,2.691-6,6v.215c-3.008-1.965-5-5.362-5-9.215C1,5.935,5.935,1,12,1s11,4.935,11,11c0,3.853-1.992,7.25-5,9.215ZM12,5c-2.206,0-4,1.794-4,4s1.794,4,4,4,4-1.794,4-4-1.794-4-4-4Zm0,7c-1.654,0-3-1.346-3-3s1.346-3,3-3,3,1.346,3,3-1.346,3-3,3Z"/></svg>
+                    <div>Username</div>
+                </div>                
+                <div class="flex-container" id="greeting">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="50" height="50"><path d="m12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm-5,21.797v-.797c0-2.757,2.243-5,5-5s5,2.243,5,5v.797c-1.501.769-3.201,1.203-5,1.203s-3.499-.434-5-1.203Zm11-.582v-.215c0-3.309-2.691-6-6-6s-6,2.691-6,6v.215c-3.008-1.965-5-5.362-5-9.215C1,5.935,5.935,1,12,1s11,4.935,11,11c0,3.853-1.992,7.25-5,9.215ZM12,5c-2.206,0-4,1.794-4,4s1.794,4,4,4,4-1.794,4-4-1.794-4-4-4Zm0,7c-1.654,0-3-1.346-3-3s1.346-3,3-3,3,1.346,3,3-1.346,3-3,3Z"/></svg>
+                    <div class="flex-container" id="greet-text">
+                        <p>Greetings,</p>
+                        <p>User</p>
+                    </div>
+                    
+                </div>
+                <div class="flex-container" id="controls">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>               
+            </div>
+            <div class="grid-container" id="content">
+                <div class="flex-container" id="projects">
+                    <h1>Projects</h1>
+                    <div class="grid-container" id="cards">
+                        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum corporis beatae iusto ipsam tempora sed, adipisci quam, omnis similique autem itaque sapiente minima iure id, accusamus reiciendis aut porro?</div>
+                        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, vitae. Unde, nisi aliquid. Earum, eveniet, laborum magnam accusamus perferendis vel ab nemo ullam molestias aspernatur, explicabo vitae nesciunt. Voluptatibus, impedit!</div>
+                        <div class="card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quae quo enim officia excepturi tempore non? Labore architecto molestias accusantium nisi quisquam unde, quia, deserunt rerum adipisci facere, aut dolor.</div>
+                        <div class="card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse nemo obcaecati at earum, inventore ullam perferendis voluptate, nisi quo aut sit odio accusantium provident, cum veniam necessitatibus similique ab. Provident!</div>
+                        <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem porro error, corporis modi maxime necessitatibus sint nesciunt eveniet reprehenderit, dicta numquam sed tempore omnis? Tempore eius repellendus sed laborum exercitationem?</div>
+                        <div class="card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti soluta, expedita illo suscipit quasi non iure culpa in earum praesentium aliquam eos dignissimos ad quisquam fugiat, repellendus ea molestias recusandae?</div>
+                    </div>
+                </div>    
+                <div class="flex-container" id="announcements">
+                    <h1>announcements</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="flex-container" id="trending">
+                    <h1>Trending</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>                
+            </div>
+    </div>
+    <script src="code.js"></script>  
+</body>
+</html>
